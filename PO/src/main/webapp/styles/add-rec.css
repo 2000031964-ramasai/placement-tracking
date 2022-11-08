@@ -1,0 +1,75 @@
+@import
+	url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+.nav-list {
+	background: #333;
+	padding-top: 0.75rem;
+	padding-bottom: 0.75rem;
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.nav-item {
+	list-style: none;
+	margin-right: 2rem;
+}
+
+.nav-item a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.nav-item:first-child {
+	margin-right: auto;
+	margin-left: 2rem;
+	text-decoration: none;
+	font-size: xx-large;
+}
+
+fieldset {
+	margin: 0 auto;
+	transform: translate(0, 35%);
+	padding: 1rem;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	width: 250px;
+	align-content: center;
+	border-radius: 10px;
+	border: 0;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+legend {
+	text-align: center;
+	background: #fff;
+}
+
+.form-class {
+	display: flex;
+	flex-direction: column;
+	font-size: 90%;
+	align-items: center;
+	gap: 4px;
+}
+
+.form-class a {
+	text-decoration: none;
+	color: #000;
+}
+
+.form-class input {
+	margin-top: 5px;
+	padding: 6px;
+	border: 0;
+	box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+}
